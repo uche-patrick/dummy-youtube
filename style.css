@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    margin: auto;
+    box-sizing: border-box;
+    color: white;
+}
+
+#main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header, .right-header{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+#bar-logo{
+    margin-left: 30px;
+    color: white;
+}
+
+#youtube-logo{
+    margin-left: 30px;
+    color: red;
+}
+
+#video-logo, #app-icon, #alert-icon{
+    margin-right: 30px;
+    color: white;
+}
+
+#person-icon{
+    margin-right: 30px;
+    color: blue;
+}
+
+#search-bar{
+    width: 35em;
+    margin-top: 17px;
+    padding: 5px;
+    background-color: black;
+    border-right: none;
+    color: white;
+    font-size: 17px;
+}
+
+#search-button{
+     padding: 5px; 
+     padding-left: 5px; 
+     font-size: 17px;
+}
+
+#btn{
+    background-color: gray;
+    border-left: none;
+    width: 50px;
+}
+
+#main-content{
+    display: flex;
+}
+
+.video-div{
+    margin:30px;
+}
+
+#ifr{
+    width: 750px;
+    height: 422px;
+}
+
+.video-stat{
+    display: flex;
+    justify-content: space-between;
+}
+
+#fa-fa{
+    color: gray;
+}
+
+.video-description{
+    margin: 30px;
+    display: flex;
+}
+
+.row-1{
+    flex: 0.6;
+}
+
+.row-2{
+    flex: 6;
+    margin-top: -10px;
+}
+
+.row-3{
+    flex: 0;
+}
+
+#author-logo{
+    border-radius: 20px;
+    width: 50px;
+}
+
+.author-name{
+    font-weight: bold;
+}
+
+.gray-text{
+    
+}
+
+#sub-btn{
+    cursor: pointer;
+    background: red;
+    border: none;
+    width: 105px;
+    padding: 5px;
+}
+
+.comments{
+    margin: 30px;
+}
+
+#profile-pics{
+    border-radius: 30px;
+}
+
+#public-comment{
+    border: none;
+    border-bottom: 1px solid #303030;
+    background: none;
+    color: white;
+    width: 100%;
+}
+
+.side-bar{
+    margin: 30px;
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.up-next{
+     display: flex;
+     justify-content: space-between;
+}
+
+.auto-play{
+    display: flex;
+    color: gray;
+}
+
+#auto-play-btn{
+    color: blue;
+}
+
+.next-video{ 
+    display: flex;
+}
+
+#thumbnail{
+    width: 80%;
+    cursor: pointer;
+}
+
+.video-details{
+    margin-top: -25px;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.small-text{
+    margin-top: -15px;
+    color: gray;
+}
