@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width intial-scale=1.0">
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link href="youTube.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="mainHeader">
+           <div class="leftHeader">
+            <i class="fa fa-bars" id="bar-logo"></i>
+            <i class="fa fa-youtube-play" id="youtube-logo">YouTube</i>
+           </div>
+           <div class="centerHeader">
+               <form class="form">
+                   <input type="text" name="inputTxt" class="searchText" placeholder="Search">
+                   <button class="btn btn-success btn-sm" id="search-btn"><i class="material-icons">search</i></button>
+               </form>
+           </div>
+           <div class="rightHeader">
+            <i class="fa fa-video-camera" id="video-logo"></i>
+            <i class="material-icons" id="app-icon">apps</i>
+            <i class="material-icons" id="alert-icon">add_alert</i>
+            <i class="material-icons" id="person-icon">person</i>
+           </div>
+        </header>
+
+        <div class="row contentWrapper">
+            <div class="col-md-8">
+                <div class="video">
+                    <iframe width="95%" height="315" src="https://www.youtube.com/embed/mruqJRIiruQ"
+                       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                       gyroscope; picture-in-picture" id="ifr" allowfullscreen >
+                    </iframe>
+                    <h3>NEW MOVIE TRAILER 2020 (August)</h3>
+                    <p><small>2,707,304 views<sup>.</sup>Aug 25, 2020</small></p>
+                    <div class="videoStat">
+                        <p id="fa-fa"><i class="fa fa-thumbs-up"></i>   1.3M
+                            <i class="fa fa-thumbs-down"></i> 250K
+                             <i class="fa fa-share"></i> Share
+                             <i class="material-icons">playlist_add</i> Save
+                             <i class="fa fa-ellipsis-h"></i></p>
+                    </div>
+                </div> 
+                <hr>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div>
+                           <img class="img-circle img-responsive authorLogo" src="Desert.jpg" alt="desert image">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div>
+                            <p class="author-name">MovieGasm.com</P>             
+                            <p class="gray-text">1.57M subscribers</p>
+                            <br>
+                            <p>Find us on LBRy. Best video platform out there. Anti Censorship</p>
+                            <a href="#">https://lbry.tv/$/invite/@MovieGasm:d</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div>
+                            <button class="btn btn-danger subBtn">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <h3>0 comments<i class="fa fa-align-left" style="margin-left: 10px;"></i></h3>
+                    <img src="Desert.jpg" width="50px" height="50px">
+                      
+                   <input type="text" id="public-comment" placeholder="Add a public comment...">                
+                </div>
+            </div>
+            <div class="col-md-4">
+             <div class="sideBar">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>Up Next</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p>Auto Play<i class="material-icons" id="auto-play-btn"> radio_button_checked</i></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5;">
+                       <img src="Desert.jpg" alt="video thumbnail" width="120px" height="60px">
+                    </div>
+                    <div class="col-md-7">
+                       <h4>Latest movie traillers now showing...</h4>
+                       <small>New Release</small>
+                       <small>250k views. 3 Months ago</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5;">
+                       <img src="Desert.jpg" alt="video thumbnail" width="120px" height="60px">
+                    </div>
+                    <div class="col-md-7">
+                       <h4>Latest movie traillers now showing...</h4>
+                       <small>New Release</small>
+                       <small>250k views. 3 Months ago</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5;">
+                       <img src="Desert.jpg" alt="video thumbnail" width="120px" height="60px">
+                    </div>
+                    <div class="col-md-7">
+                       <h4>Latest movie traillers now showing...</h4>
+                       <small>New Release</small>
+                       <small>250k views. 3 Months ago</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5;">
+                       <img src="Desert.jpg" alt="video thumbnail" width="120px" height="60px">
+                    </div>
+                    <div class="col-md-7">
+                       <h4>Latest movie traillers now showing...</h4>
+                       <small>New Release</small>
+                       <small>250k views. 3 Months ago</small>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5;">
+                       <img src="Desert.jpg" alt="video thumbnail" width="120px" height="60px">
+                    </div>
+                    <div class="col-md-7">
+                       <h4>Latest movie traillers now showing...</h4>
+                       <small>New Release</small>
+                       <small>250k views. 3 Months ago</small>
+                    </div>
+                </div>
+             </div> 
+            
+        </div>
+    </body>
+</html>
